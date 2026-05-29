@@ -1,4 +1,4 @@
-class TwoSum {
+public class TwoSum {
     static int[] twoSum(int[] nums, int target) {
         int n = nums.length;
         for (int i = 0; i < n - 1; i++) {
@@ -16,8 +16,5 @@ class TwoSum {
         int[] nums = {2, 8, 10, 15};
         int target = 10;
         twoSum(nums, target);
-        for(int i: nums){
-            System.out.println(i);
-        }
     }
 }
