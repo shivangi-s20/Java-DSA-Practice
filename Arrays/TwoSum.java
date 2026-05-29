@@ -15,6 +15,9 @@ public class TwoSum {
     public static void main(String[] args) {
         int[] nums = {2, 8, 10, 15};
         int target = 10;
-        twoSum(nums, target);
+        int[] result = twoSum(nums, target);
+        for (int i : result) {
+            System.out.println(i);
     }
+}
 }
